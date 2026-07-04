@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold text-white mb-4">درباره من</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              متخصص فناوری اطلاعات و هنرمند خوشنویس، با سابقه کار در حوزه بانکداری و تدریس هنر
+             هنرمند خوشنویس، با سابقه کار در حوزه بانکداری و تدریس هنر
             </p>
             <div className="flex items-center justify-end gap-3 mt-4">
               <a href="#" target="_blank" rel="noopener noreferrer" aria-label="لینکدین" className="text-gray-400 hover:text-cyan-300 transition-colors duration-300">
@@ -47,7 +47,6 @@ const Footer = () => {
               <li><Link href="#" className="hover:text-cyan-300 transition-colors duration-300">تدریس نقاشی سبک رئال</Link></li>
               <li><Link href="#" className="hover:text-cyan-300 transition-colors duration-300">تدریس ICDL</Link></li>
               <li><Link href="#" className="hover:text-cyan-300 transition-colors duration-300">طراحی تذهیب</Link></li>
-              <li><Link href="#" className="hover:text-cyan-300 transition-colors duration-300">مشاوره فناوری اطلاعات</Link></li>
             </ul>
           </div>
 
