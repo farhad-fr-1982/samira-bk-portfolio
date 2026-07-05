@@ -35,20 +35,6 @@ const skills = [
     description: "ویرایش حرفه‌ای تصویر و رتوش عکس دیجیتال",
   },
   {
-    name: "CorelDRAW X5",
-    icon: <MdBrush />,
-    percentage: 80,
-    color: "text-yellow-400",
-    description: "طراحی گرافیک برداری، لوگو و آماده‌سازی چاپ",
-  },
-  {
-    name: "زبان انگلیسی",
-    icon: <FaLanguage />,
-    percentage: 80,
-    color: "text-red-400",
-    description: "مکالمه روان و نگارش متون تخصصی انگلیسی",
-  },
-  {
     name: "ترکی استانبولی",
     icon: <FaLanguage />,
     percentage: 75,
