@@ -7,7 +7,7 @@ import Tilt from "react-parallax-tilt";
 
 const skills = [
   {
-    name: "خط نسخ",
+    name: "خط نسخ فصیح",
     icon: <FaPenNib />,
     percentage: 90,
     color: "text-amber-400",
