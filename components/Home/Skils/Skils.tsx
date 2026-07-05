@@ -9,38 +9,21 @@ const skills = [
   {
     name: "خط نسخ فصیح",
     icon: <FaPenNib />,
-    percentage: 90,
     color: "text-amber-400",
     description: "خوشنویسی دقیق و منظم به سبک کلاسیک نسخ",
   },
   {
     name: "خط نستعلیق",
     icon: <GiFeather />,
-    percentage: 92,
     color: "text-rose-400",
     description: "اجرای هنری و سیال خوشنویسی نستعلیق ایرانی",
   },
   {
     name: "نقاشی",
     icon: <GiPaintBrush />,
-    percentage: 88,
     color: "text-emerald-400",
     description: "نقاشی با رنگ‌روغن و آبرنگ و ترکیب‌بندی خلاقانه",
-  },
-  {
-    name: "Photoshop CS5",
-    icon: <FaCamera />,
-    percentage: 82,
-    color: "text-blue-500",
-    description: "ویرایش حرفه‌ای تصویر و رتوش عکس دیجیتال",
-  },
-  {
-    name: "ترکی استانبولی",
-    icon: <FaLanguage />,
-    percentage: 75,
-    color: "text-orange-400",
-    description: "مکالمه روزمره و ارتباط ساده و روان",
-  },
+  }
 ];
 
 const Skills = () => {
@@ -68,7 +51,6 @@ const Skills = () => {
                 <div className={`text-5xl mb-3 ${skill.color}`}>
                   {skill.icon}
                 </div>
-                <p className="text-2xl font-bold text-white">{skill.percentage}%</p>
                 <p className="text-purple-400 mt-1 text-sm font-medium">
                   {skill.name}
                 </p>
@@ -78,12 +60,6 @@ const Skills = () => {
                 >
                   {skill.description}
                 </p>
-                <div className="w-3/4 h-1 bg-gray-700 rounded-full mt-3 overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full transition-all duration-1000"
-                    style={{ width: `${skill.percentage}%` }}
-                  />
-                </div>
               </div>
             </Tilt>
           ))}
