@@ -54,7 +54,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-white mb-4">اطلاعات تماس</h3>
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center justify-end gap-2">
-                <span dir="ltr">09123348012</span>
+                <span dir="ltr">۰۹۳۵۷۰۰۹۷۴۲</span>
                 <BiPhone className="w-5 h-5 text-cyan-300" />
               </div>
               <div className="flex items-center justify-end gap-2">
