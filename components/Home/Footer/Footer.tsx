@@ -34,8 +34,8 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-white mb-4">لینک‌های سریع</h3>
             <ul className="space-y-2 text-gray-400">
               <li><Link href="/" className="hover:text-cyan-300 transition-colors duration-300">خانه</Link></li>
-              <li><Link href="#skills" className="hover:text-cyan-300 transition-colors duration-300">مهارت‌ها</Link></li>
-              <li><Link href="#projects" className="hover:text-cyan-300 transition-colors duration-300">نمونه کارهای من</Link></li>
+              <li><Link href="#skills" className="hover:text-cyan-300 transition-colors duration-300">مهارتهای من</Link></li>
+              <li><Link href="#projects" className="hover:text-cyan-300 transition-colors duration-300">برخی از کارهای من</Link></li>
               <li><Link href="#contact" className="hover:text-cyan-300 transition-colors duration-300">تماس با من</Link></li>
             </ul>
           </div>
