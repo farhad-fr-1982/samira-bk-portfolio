@@ -1,12 +1,14 @@
-import { MetadataRoute } from 'next'
+import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const siteUrl = "https://samira-bk-artportfolio.vercel.app";
+
   return [
     {
-      url: 'https://samira-bk-portfolio.vercel.app',
+      url: siteUrl,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: "monthly",
       priority: 1,
     },
-  ]
+  ];
 }
