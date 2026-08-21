@@ -21,6 +21,7 @@ const Projects = () => {
             <div className="w-[90%] mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 mt-12">
                 {projects.map((project) => (
                     <div
+                    
                         key={project.id}
                         className="overflow-hidden rounded-lg border border-white/10 hover:border-cyan-200/50 transition-all duration-300 flex flex-col"
                     >
